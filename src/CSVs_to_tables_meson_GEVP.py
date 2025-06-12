@@ -441,7 +441,7 @@ for n in range(3):
         latex_table += "\\end{table}\n"
 
         # Write LaTeX table to a file for each chunk
-        with open(f'./tables/{ensemble}_output_table_aE{n}_meson.tex', 'w') as file:
+        with open(f'./assets/tables/{ensemble}_output_table_aE{n}_meson.tex', 'w') as file:
             file.write(latex_table)
         # Reset LaTeX table for next chunk
         latex_table = ""

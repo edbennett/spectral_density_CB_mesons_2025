@@ -122,7 +122,7 @@ for rep in ["f", "as"]:
         
         
 # Write LaTeX table to file
-with open("./tables/s_parameters_table.tex", "w") as texfile:
+with open("./assets/tables/s_parameters_table.tex", "w") as texfile:
     for rep in ["f", "as"]:
         for ens in ["M1", "M2", "M3", "M4", "M5"]:
             row = results_df[(results_df["representation"] == rep) & (results_df["Ens"] == ens)]
